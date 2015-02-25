@@ -1,0 +1,102 @@
+body {
+    margin: 10px;
+
+    .outer-div{
+        width: 100%;
+        height: 500px;
+    
+        .inner-div {
+            width: 60%;
+            height: 100%;
+            margin: 0 auto;
+            position: relative;
+            border: 1px solid #000000;
+            border-collapse: collapse;
+        
+            .action-div {
+                width: 100%;
+                height: 10%;
+                background-color: #dddddd;
+                text-align: center;
+
+                input[type='button']{
+                    position: relative;
+                    top: 30%;
+                }
+            }
+
+            .text-div {
+                width: 30%;
+                height: 90%;
+                background-color: white;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: navajowhite;
+
+                span {
+                    position: relative;
+                    top: 50px;
+                }
+
+            }
+
+
+            .game-div {
+                width: 70%;
+                height: 90%;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+
+                #sudoku-table{
+                    width: 100%;
+                    height: 100%;
+                    border-collapse: collapse;
+                    border-spacing: 0px;
+
+                    .square-3-by-3 {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        vertical-align: middle;
+                        border: 2px solid #000000;
+                        border-collapse: collapse;
+
+                        td {
+                            width: 60px;
+                            border: 1px #000000 solid;
+                            border-collapse: collapse;
+                            position: relative;
+
+                            .editTextBox {
+                                width: 100%;
+                                height: 100%;
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                background-color: yellow;
+                                font-size: 1em;
+                                text-align: center;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+            #congratulationsDiv{
+                position: relative;
+                top: 30px;
+                width: 50%;
+                height: 20px;
+                margin: 0 auto;
+                background-color: green;
+                text-align: center;
+                display: none;
+            }
+
+        }
+    }
+}

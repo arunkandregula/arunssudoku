@@ -1,0 +1,204 @@
+<div class="outer-div">
+    <div class="inner-div">
+        <div class="action-div">
+            <input type="button" id="newPuzzleButton" value="New Puzzle" />
+            <input type="button" id="validateButton" value="Validate my solution" />
+            <input type="button" id="solveButton" value="Solve it" />
+
+        </div>
+        <div class="text-div">
+            <span>
+            Sudoku is one of the most popular puzzle games of all time.
+            The goal of Sudoku is to fill a 9×9 grid with numbers so that each row, column and 3×3 section contain all of the digits between 1 and 9.
+            </span>
+
+        </div>
+        <div class="game-div">
+            <table id="sudoku-table">
+              <tbody>
+                  <tr>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row1col1" class="cell">1</td>
+                                  <td id="row1col2" class="cell">1</td>
+                                  <td id="row1col3" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row2col1" class="cell">1</td>
+                                  <td id="row2col2" class="cell">1</td>
+                                  <td id="row2col3" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row3col1" class="cell">1</td>
+                                  <td id="row3col2" class="cell">1</td>
+                                  <td id="row3col3" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row1col4" class="cell">1</td>
+                                  <td id="row1col5" class="cell">1</td>
+                                  <td id="row1col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row2col4" class="cell">1</td>
+                                  <td id="row2col5" class="cell">1</td>
+                                  <td id="row2col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row3col4" class="cell">1</td>
+                                  <td id="row3col5" class="cell">1</td>
+                                  <td id="row3col6" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row1col7" class="cell">1</td>
+                                  <td id="row1col8" class="cell">1</td>
+                                  <td id="row1col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row2col7" class="cell">1</td>
+                                  <td id="row2col8" class="cell">1</td>
+                                  <td id="row2col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row3col7" class="cell">1</td>
+                                  <td id="row3col8" class="cell">1</td>
+                                  <td id="row3col9" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row4col1"  class="cell">1</td>
+                                  <td id="row4col2"  class="cell">1</td>
+                                  <td id="row4col3"  class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row5col1"  class="cell">1</td>
+                                  <td id="row5col2"  class="cell">1</td>
+                                  <td id="row5col3"  class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row6col1"  class="cell">1</td>
+                                  <td id="row6col2"  class="cell">1</td>
+                                  <td id="row6col3" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row4col4" class="cell">1</td>
+                                  <td id="row4col5" class="cell">1</td>
+                                  <td id="row4col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row5col4" class="cell">1</td>
+                                  <td id="row5col5" class="cell">1</td>
+                                  <td id="row5col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row6col4" class="cell">1</td>
+                                  <td id="row6col5" class="cell">1</td>
+                                  <td id="row6col6" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row4col7" class="cell">1</td>
+                                  <td id="row4col8" class="cell">1</td>
+                                  <td id="row4col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row5col7" class="cell">1</td>
+                                  <td id="row5col8" class="cell">1</td>
+                                  <td id="row5col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row6col7" class="cell">1</td>
+                                  <td id="row6col8" class="cell">1</td>
+                                  <td id="row6col9" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row7col1" class="cell">1</td>
+                                  <td id="row7col2" class="cell">1</td>
+                                  <td id="row7col3" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row8col1" class="cell">1</td>
+                                  <td id="row8col2" class="cell">1</td>
+                                  <td id="row8col3" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row9col1" class="cell">1</td>
+                                  <td id="row9col2" class="cell">1</td>
+                                  <td id="row9col3" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row7col4" class="cell">1</td>
+                                  <td id="row7col5" class="cell">1</td>
+                                  <td id="row7col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row8col4" class="cell">1</td>
+                                  <td id="row8col5" class="cell">1</td>
+                                  <td id="row8col6" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row9col4" class="cell">1</td>
+                                  <td id="row9col5" class="cell">1</td>
+                                  <td id="row9col6" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                      <td>
+                          <table class="square-3-by-3">
+                              <tr>
+                                  <td id="row7col7" class="cell">1</td>
+                                  <td id="row7col8" class="cell">1</td>
+                                  <td id="row7col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row8col7" class="cell">1</td>
+                                  <td id="row8col8" class="cell">1</td>
+                                  <td id="row8col9" class="cell">1</td>
+                              </tr>
+                              <tr>
+                                  <td id="row9col7" class="cell">1</td>
+                                  <td id="row9col8" class="cell">1</td>
+                                  <td id="row9col9" class="cell">1</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+<div id="congratulationsDiv">
+   {{congratulationsText}}
+</div>
