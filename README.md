@@ -1,11 +1,13 @@
 # Sudoku game written without any modern javascript frameworks.
-
+This mini project demonstrates modularizing frontend code without using any modern javascript frameworks like AngularJS, EmberJS etc.
+When you run this, you ll see a nice functional sudoku game.
 
 ## Technologies used
 
 - Javascript
 - Jquery
 - SASS
+- Browserify for modules
 - Grunt
 - Handlebars templating language ( not extensively used, due to lack of time )
 - npm
