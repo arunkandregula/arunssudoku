@@ -20,7 +20,6 @@ module.exports = function(){
                     var id = "row" + (eachRowIndex+1) + "col" + (eachCellIndex+1);
 
                     var actualNumber = $("#" + id).html();
-                    debugger;
                     if(actualNumber != expectedNumberInEachCell){
                     	// if already being edited 
                     	if( $("#" + id).html().indexOf("input") !== -1) {
@@ -62,7 +61,6 @@ module.exports = function(){
                     return currentValue.length == 1;
                 }
                 var textBoxStr = '<input type="tel" id="textBox" class="editTextBox" size="1" maxlength="1" autofocus="autofocus" >';
-                debugger;
                 if( isValidValue(currentValue) ){
                     textBoxStr = '<input type="tel" id="textBox" class="editTextBox" size="1" maxlength="1" autofocus="autofocus" value="'+ currentValue +'">';
                 }
