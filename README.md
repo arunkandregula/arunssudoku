@@ -13,8 +13,9 @@ When you run this, you ll see a nice functional sudoku game.
 - npm
 
 
-## How to run arunssudoku
+## How to play my version of sudoku
 
-1. git clone https://github.com/arunkandregula/arunssudoku.git
-2. cd arunssudoku/dist
-3. Open index.html in the browser
+1. Install git
+2. git clone https://github.com/arunkandregula/arunssudoku.git
+3. cd arunssudoku/dist
+4. Open index.html in the browser
